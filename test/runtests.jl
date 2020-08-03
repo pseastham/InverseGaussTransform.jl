@@ -1,6 +1,5 @@
-using InverseGaussTransform
-using Test
+using SafeTestsets
 
-@testset "InverseGaussTransform.jl" begin
-    # Write your tests here.
+@time begin
+    @time @safetestset "Initial" begin include("test.jl") end
 end

@@ -1,5 +1,8 @@
 module InverseGaussTransform
 
-# Write your package code here.
+using StokesParticles
+using Plots
+
+include("ctd_functions.jl")
 
 end
